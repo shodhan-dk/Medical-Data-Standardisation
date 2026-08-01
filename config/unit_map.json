@@ -1,0 +1,43 @@
+{
+  "_comment": "Per canonical test: the canonical unit, and a factor to multiply any recognized incoming unit by to reach it. Add a new clinic's unit here (no code change) if it differs.",
+  "Hemoglobin": {
+    "canonical_unit": "g/dL",
+    "aliases": { "g/dl": 1, "gm/dl": 1, "gm%": 1, "g%": 1 }
+  },
+  "White Blood Cell Count": {
+    "canonical_unit": "cells/cu.mm",
+    "aliases": { "cells/cu.mm": 1, "cell/cu.mm": 1, "/cu.mm": 1, "mil/cu.mm": 1000000, "mil/cu.cm": 1000000, "x10^3/ul": 1000, "10^3/ul": 1000 }
+  },
+  "Platelet Count": {
+    "canonical_unit": "lac/cmm",
+    "aliases": { "lac/cmm": 1, "lakh/cmm": 1, "x10^5/cmm": 1 }
+  },
+  "Serum Creatinine": {
+    "canonical_unit": "mg/dL",
+    "aliases": { "mg/dl": 1, "mg%": 1, "umol/l": 0.0113 }
+  },
+  "Creatinine": {
+    "canonical_unit": "mg/dL",
+    "aliases": { "mg/dl": 1, "mg%": 1, "umol/l": 0.0113 }
+  },
+  "Sodium": {
+    "canonical_unit": "mEq/L",
+    "aliases": { "meq/l": 1, "mmol/l": 1 }
+  },
+  "Potassium": {
+    "canonical_unit": "mEq/L",
+    "aliases": { "meq/l": 1, "mmol/l": 1 }
+  },
+  "C-Reactive Protein": {
+    "canonical_unit": "mg/L",
+    "aliases": { "mg/l": 1, "mg/dl": 10 }
+  },
+  "Hematocrit": {
+    "canonical_unit": "%",
+    "aliases": { "%": 1, "fl": 1 }
+  },
+  "_default": {
+    "canonical_unit": null,
+    "aliases": {}
+  }
+}

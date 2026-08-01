@@ -1,0 +1,13 @@
+{
+  "_comment": "low/high define the normal reference range used for Above/Below/Within Range. outlier_low/outlier_high define physiologically implausible bounds (FR-3.2) — a value outside these is flagged 'Outlier' instead of merely 'Above/Below Range'. Values are expressed in the unit_map.json canonical_unit for that test.",
+  "Hemoglobin": { "low": 12.0, "high": 16.0, "outlier_low": 3.0, "outlier_high": 22.0 },
+  "White Blood Cell Count": { "low": 4000, "high": 11000, "outlier_low": 500, "outlier_high": 100000 },
+  "Platelet Count": { "low": 1.5, "high": 4.5, "outlier_low": 0.1, "outlier_high": 20 },
+  "Serum Creatinine": { "low": 0.6, "high": 1.3, "outlier_low": 0.1, "outlier_high": 15 },
+  "Creatinine": { "low": 0.6, "high": 1.3, "outlier_low": 0.1, "outlier_high": 15 },
+  "Sodium": { "low": 135, "high": 145, "outlier_low": 100, "outlier_high": 180 },
+  "Potassium": { "low": 3.5, "high": 5.1, "outlier_low": 1.5, "outlier_high": 9.0 },
+  "C-Reactive Protein": { "low": 0, "high": 6, "outlier_low": 0, "outlier_high": 500 },
+  "Hematocrit": { "low": 36, "high": 46, "outlier_low": 10, "outlier_high": 70 },
+  "_default": { "low": null, "high": null, "outlier_low": null, "outlier_high": null }
+}
