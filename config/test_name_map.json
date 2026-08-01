@@ -1,0 +1,100 @@
+{
+  "_comment": "Maps raw/misspelled/OCR-truncated test names to a canonical name. Keys are matched case-insensitively after whitespace trim. Seeded from Clinical_name_standardization.xlsx and extended with variants observed in the sample discharge/lab reports (including OCR-style truncations like 'aemoglobin' for 'Haemoglobin').",
+  "HAEMOGLOBIN": "Hemoglobin",
+  "HEMOGLOBIN": "Hemoglobin",
+  "HB": "Hemoglobin",
+  "AEMOGLOBIN": "Hemoglobin",
+
+  "TOTAL WBC COUNT": "White Blood Cell Count",
+  "WBC COUNT": "White Blood Cell Count",
+  "WHITE BLOOD CELL COUNT": "White Blood Cell Count",
+  "TAL WBC COUNT": "White Blood Cell Count",
+
+  "CREATININE, SERUM": "Serum Creatinine",
+  "SERUM CREATININE": "Serum Creatinine",
+  "CREATININE": "Creatinine",
+
+  "NA+": "Sodium",
+  "SODIUM": "Sodium",
+
+  "K+": "Potassium",
+  "POTASSIUM": "Potassium",
+
+  "RBC": "Red Blood Cell Count",
+  "RBC COUNT": "Red Blood Cell Count",
+
+  "PLATELET COUNT": "Platelet Count",
+  "ATELET COUNT": "Platelet Count",
+
+  "ALBUMIN": "Albumin",
+  "ALBUMIN, SERUM": "Albumin",
+
+  "HAEMATOCRIT": "Hematocrit",
+  "HAEMATOCRIT (PCV)": "Hematocrit",
+  "HEMATOCRIT": "Hematocrit",
+  "HEMATOCRIT HCT": "Hematocrit",
+  "EMATOCRIT HCT": "Hematocrit",
+
+  "PROCALCITONIN": "Procalcitonin",
+  "PROCALCITONIN (PCT)": "Procalcitonin",
+
+  "C-REACTIVE PROTEIN": "C-Reactive Protein",
+  "C-REACTIVE PROTEIN (CRP)": "C-Reactive Protein",
+  "CRP": "C-Reactive Protein",
+  "CRP-QUANTITATIVE": "C-Reactive Protein",
+
+  "ALANINE AMINOTRANSFERASE": "Alanine Aminotransferase",
+  "ALT (SGPT)": "Alanine Aminotransferase",
+
+  "ASPARTATE AMINOTRANSFERASE": "Aspartate Aminotransferase",
+  "AST (SGOT)": "Aspartate Aminotransferase",
+
+  "URIC ACID": "Uric Acid",
+  "URIC ACID, SERUM": "Uric Acid",
+
+  "CALCIUM": "Calcium",
+  "CA2+ (CALCIUM)": "Calcium",
+
+  "RBC INDICES": "RBC Indices",
+  "BC INDICES": "RBC Indices",
+
+  "MEAN CORP VOLUME MCV": "Mean Corpuscular Volume",
+  "LEAN CORP VOLUME MCV": "Mean Corpuscular Volume",
+
+  "MEAN CORP HB CONC MCHC": "Mean Corpuscular Hemoglobin Concentration",
+  "LEAN CORP HB CONC MCHC": "Mean Corpuscular Hemoglobin Concentration",
+
+  "RDW-CV": "Red Cell Distribution Width CV",
+  "DW-CV": "Red Cell Distribution Width CV",
+
+  "RDW-SD": "Red Cell Distribution Width SD",
+  "DW-SD": "Red Cell Distribution Width SD",
+
+  "PLATELET INDICES": "Platelet Indices",
+  "LATELET INDICES": "Platelet Indices",
+
+  "PCT": "Plateletcrit",
+  "ET": "Plateletcrit",
+
+  "PLCR": "Platelet Large Cell Ratio",
+  "LCR": "Platelet Large Cell Ratio",
+
+  "NEUTROPHILS": "Neutrophils",
+  "EUTROPHILS": "Neutrophils",
+
+  "LYMPHOCYTES": "Lymphocytes",
+  "MPHOCYTES": "Lymphocytes",
+
+  "EOSINOPHILS": "Eosinophils",
+  "SINOPHILS": "Eosinophils",
+
+  "MONOCYTES": "Monocytes",
+  "ONOCYTES": "Monocytes",
+
+  "BASOPHILS": "Basophils",
+  "SOPHILS": "Basophils",
+
+  "WIDAL TEST": "Widal Test",
+  "DENGUE NS 1": "Dengue NS1 Antigen",
+  "TYPHI DOT IGG & IGM": "Typhidot IgG & IgM"
+}
