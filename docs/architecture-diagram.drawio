@@ -1,0 +1,39 @@
+<mxGraphModel dx="774" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="2" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#0288d1;fontSize=14;" value="Input JSON files&#xa;(sample-data)" vertex="1">
+      <mxGeometry height="70" width="140" x="40" y="120" as="geometry" />
+    </mxCell>
+    <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ef6c00;fontSize=15;" value="Ingestion Layer" vertex="1">
+      <mxGeometry height="70" width="140" x="240" y="120" as="geometry" />
+    </mxCell>
+    <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;fontSize=15;" value="Standardisation &amp; Validation" vertex="1">
+      <mxGeometry height="70" width="180" x="440" y="120" as="geometry" />
+    </mxCell>
+    <mxCell id="5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#6a1b9a;fontSize=13;" value="SQLite Database&#xa;(records, lab_results, medications, dead_letters, pipeline_runs)" vertex="1">
+      <mxGeometry height="120" width="220" x="690" y="95" as="geometry" />
+    </mxCell>
+    <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#c2185b;fontSize=15;" value="Streamlit UI" vertex="1">
+      <mxGeometry height="70" width="140" x="690" y="280" as="geometry" />
+    </mxCell>
+    <mxCell id="7" parent="1" style="shape=parallelogram;whiteSpace=wrap;html=1;fillColor=#ede7f6;strokeColor=#5e35b1;fontSize=13;" value="Config Maps&#xa;(test names, units, medicine, reference ranges)" vertex="1">
+      <mxGeometry height="80" width="220" x="420" y="280" as="geometry" />
+    </mxCell>
+    <mxCell id="8" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="3">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="9" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="4">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="10" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="5">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="11" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="6">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="12" edge="1" parent="1" source="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" target="4">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
